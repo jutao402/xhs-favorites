@@ -66,8 +66,14 @@ Keep the HTML and its matching snapshot sidecar together and use the local HTTP 
 
 The generated project is retained under `dashboard/`; its `AGENTS.md` documents rebuilding with the original Data runtime. The verified build is included, so viewing it requires no frontend dependency installation. The scripts under `analysis/` retain their original input-directory assumptions and are reproducibility records; supply the expected inputs before rerunning them.
 
-## 保存与托管 / Storage and hosting
+## 在线访问与更新 / Live website and updates
 
-原可视化运行在本人电脑的本地预览服务中。本次GitHub上传用于备份代码与数据，不代表已经把网站发布到互联网，也不自动启用GitHub Pages。仓库所有者已明确确认将这些个人收藏数据及分析公开。
+在线查看 / Open the dashboard: [我的收藏 / My Favorites](https://jutao402.github.io/xhs-favorites/)
 
-The original dashboard runs in a local preview service on the owner's computer. This GitHub backup stores code and data; it does not publish the website or enable GitHub Pages. The owner explicitly approved public sharing of these personal favorites data and analysis.
+网站由 GitHub Pages 托管，源码与数据保存在本仓库。仓库所有者已明确确认将这些个人收藏数据及分析公开。
+
+The dashboard is hosted on GitHub Pages. Source code and data are preserved in this repository. The owner explicitly approved public sharing of these personal favorites data and analysis.
+
+修改数据或页面源码后，先按 `dashboard/AGENTS.md` 重建，并将 `dashboard/dist/` 内的 HTML、对应数据文件和构建清单一同提交到 `main`。推送编译结果后会自动部署；仅修改源码不会自动重建页面。也可在 Actions 中手动运行 “Publish favorites dashboard”。发布脚本会校验文件哈希。
+
+After changing data or UI source, rebuild using `dashboard/AGENTS.md` and commit the HTML, matching snapshot sidecar, and build manifest under `dashboard/dist/` together to `main`. Pushing the compiled build automatically deploys it; source-only changes do not rebuild the dashboard. You can also manually run “Publish favorites dashboard” in Actions. The deployment script verifies file hashes.
