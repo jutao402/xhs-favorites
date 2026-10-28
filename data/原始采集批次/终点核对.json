@@ -1,0 +1,19 @@
+{
+  "visibility": "visible",
+  "scrollTop": 46411.5,
+  "scrollHeight": 47154,
+  "clientHeight": 743,
+  "loadingVisible": "hidden",
+  "tail": "ahua\n1954\n《元尊》\n瘦狗了\n141\n北大高数习题课上有同学倒反天罡！！！\nzzz（上学emo版）\n498\n窝滴数分是不是要炸了\n分你一些日落吧\n557\n[攻苏代餐]架空历史封神网文《绍宋》‼\n推特星奇怪的话梅\n303\n英文书阅读- Wuthering Height\nEmily 🍃爱米粒💭\n6\n厦门大学2023年高等代数\n记录生活的派大瑞\n173",
+  "observed_at": "2026-10-27T16:54:53.231Z",
+  "displayed_total": 920,
+  "observed_unique": 631,
+  "remaining_unverified": 289,
+  "checks": [
+    "连续多批滚动无新增",
+    "上滚1200像素后等待再下滚",
+    "PageUp后End再次到达底部"
+  ],
+  "pagination_exhaustion_proven": false,
+  "note": "页面到达底部且加载动画隐藏，但未出现明确的全部加载完成文字；不能确认已读取全部920条。"
+}

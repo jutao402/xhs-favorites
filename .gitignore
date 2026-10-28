@@ -1,0 +1,11 @@
+node_modules/
+.git/
+__pycache__/
+*.pyc
+.env
+.env.*
+.data-app-offline/
+.playwright-mcp/
+.playwright-cli/
+Thumbs.db
+Desktop.ini
